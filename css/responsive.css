@@ -1,0 +1,97 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1200px) { 
+  body{}
+  .form-btn {
+   margin-left: 110px;
+  }  
+  .contact-img img {
+    
+    width: 214px;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ body{}
+ 
+.logo {
+    text-align: center;
+}
+.main_menu { padding-top: 15px;}
+.main_menu ul.nav.navbar-nav li a {font-size: 18px;}
+.social_links {top: 40px;}
+.header_text h2 {font-size: 62px;padding-bottom: 60px;}
+.author_food_plat {
+    text-align: center;
+}
+.contact-img {
+    margin-bottom: 30px;
+    text-align: center;
+}
+.form-btn {margin-left: 274px;}
+    
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+ 
+ body{}   
+ .logo {
+    text-align: center;
+}
+/* starting mobile menu css */
+.navbar-toggle {
+    
+    float: none;
+    margin: 0;
+	border: 1px solid #fff;
+ }
+ .main_menu {
+    padding-right: 0px;
+    text-align: center;
+	padding-top: 20px;
+}
+.navbar-toggle .icon-bar {
+    background: #fff none repeat scroll 0 0;
+  }
+
+.mobile-menu-activated ul.nav.navbar-nav{background:#000;text-align:center;}
+.mobile-menu-activated ul.nav.navbar-nav li{display:block;}
+.mobile-menu-activated ul.nav.navbar-nav li a {border-bottom: 1px solid #333;padding: 15px;}
+.mobile-menu-activated .navbar-collapse {box-shadow:0 0 0;}
+.is-sticky .mainmenu ul.nav.navbar-nav li a {padding: 17px 0;}
+.navbar-header {
+    position: absolute;
+    right: 0;
+    top: -65px;
+}
+.social_links {
+    
+    top: -15px;
+}
+
+.logo{text-align:left;}
+/* ending mobile menu css */
+.header_text h2 {font-size: 24px;
+margin-left: 23px;
+}
+.testimonial-list {font-size: 18px;}
+.contact-img img {
+    margin-bottom: 21px;
+    margin-left: 52px;
+    
+    width: 104px;
+}
+.form-btn {
+    
+    margin-left: 107px;
+   
+}
+.footer-widget {
+    margin-bottom: 35px;
+}
+
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 480px) and (max-width: 767px) { 
+body{}
+
+}
